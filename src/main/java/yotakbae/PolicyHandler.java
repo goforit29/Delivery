@@ -28,7 +28,7 @@ public class PolicyHandler{
             DeliveryAgg delivery = new DeliveryAgg();
             delivery.setRequestId(paid.getRequestId());
             delivery.setStatus("BeforeChecked");
-            delivery.setLocation("");
+            delivery.setLocation("House");
             delivery.setMemberId(paid.getMemberId());
             deliveryAggRepository.save(delivery);
             //LJK
